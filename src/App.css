@@ -95,6 +95,73 @@
   font-weight: 500;
 }
 
+/* ========== RANDOM TEST ========== */
+.random-test-section {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.section-divider {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  color: var(--color-text-tertiary);
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.section-divider::before,
+.section-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--color-border);
+}
+
+.btn-random-test {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  border: 1.5px dashed var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  cursor: pointer;
+  transition: var(--transition);
+  width: 100%;
+  text-align: left;
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-random-test:hover {
+  border-color: #9ca3af;
+  box-shadow: var(--shadow);
+  background: #fafafa;
+}
+
+.random-test-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.random-test-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.random-test-text small {
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: var(--color-text-tertiary);
+  margin-top: 0.1rem;
+}
+
 /* ========== BUTTONS ========== */
 .btn {
   display: inline-flex;

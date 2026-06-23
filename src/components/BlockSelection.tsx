@@ -1,5 +1,6 @@
 interface BlockSelectionProps {
   onSelect: (blocks: string[]) => void
+  onRandomTest: () => void
   questionCounts: Record<string, number>
 }
 
@@ -9,8 +10,9 @@ const BLOCKS = [
   { key: 'C', title: 'Siete, ochrany, napäťové pásma' },
 ]
 
-export default function BlockSelection({ onSelect, questionCounts }: BlockSelectionProps) {
+export default function BlockSelection({ onSelect, onRandomTest, questionCounts }: BlockSelectionProps) {
   const handleAll = () => onSelect(['A', 'B', 'C'])
+  const total = Object.values(questionCounts).reduce((a, b) => a + b, 0)
 
   return (
     <div className="block-selection">
@@ -33,8 +35,19 @@ export default function BlockSelection({ onSelect, questionCounts }: BlockSelect
       </div>
 
       <button className="btn btn-primary btn-large" onClick={handleAll}>
-        Všetky bloky ({Object.values(questionCounts).reduce((a, b) => a + b, 0)} otázok)
+        Všetky bloky ({total} otázok)
       </button>
+
+      <div className="random-test-section">
+        <div className="section-divider"><span>alebo</span></div>
+        <button className="btn-random-test" onClick={onRandomTest}>
+          <span className="random-test-icon">🎲</span>
+          <span className="random-test-text">
+            Náhodný test — 30 otázok
+            <small>10 z každého bloku</small>
+          </span>
+        </button>
+      </div>
     </div>
   )
 }
