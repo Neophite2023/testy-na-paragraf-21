@@ -25,3 +25,21 @@
 - `.github/workflows/deploy.yml` — GitHub Actions workflow
 - `src/App.css`, `src/index.css` — aktuálny dizajn
 - `vite.config.ts` — base path nastavený
+
+## 23. 6. 2026 — Oprava chýbajúcich odpovedí
+
+### Hotovo
+- Opravená otázka B/19, v ktorej bola odpoveď `a) 30` omylom súčasťou zadania a nedala sa vybrať.
+- Odpovede otázky B/19 sú vyčistené na hodnoty `30`, `32`, `34`, `36`.
+- Kontrolou dát boli nájdené a opravené aj chýbajúce možnosti v otázkach B/15, C/55 a C/79.
+- Overené, že každá správna odpoveď uvedená v poli `correct` existuje medzi možnosťami otázky.
+- Produkčný build `npm run build` prešiel úspešne.
+- Oprava bola odoslaná na GitHub do vetvy `master` v commite `a5f6adb`.
+
+### Postup pri ďalších opravách
+1. Nájsť príčinu problému a skontrolovať súvisiace záznamy, či sa chyba neopakuje.
+2. Upraviť iba relevantné súbory; nesúvisiace a pomocné súbory nezahŕňať do commitu.
+3. Spustiť primerané overenie, minimálne build pri zmenách aplikácie alebo dát.
+4. Skontrolovať výsledný diff a pracovný strom.
+5. Vytvoriť samostatný commit s výstižným slovenským názvom.
+6. Po úspešnom overení automaticky odoslať commit na `origin/master`.
