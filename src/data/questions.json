@@ -1234,7 +1234,10 @@
     "number": 15,
     "question": "Aká práca je definovaná takto: Práca na elektrickej inštalácii, pri ktorej má pracovník v priestore ohrozenia časť tela a dotýka sa živých častí pod napátím predpísanými ochrannými a pracovnými prostriedkami?",
     "options": {
-      "a": "PPN na vzdialenosť"
+      "a": "PPN na vzdialenosť",
+      "b": "PPN v dotyku",
+      "c": "PPN na potenciáli",
+      "d": "PPN s ochranou"
     },
     "correct": "b",
     "chapter": "Bezpečná práca na elektrických zariadeniach a bezpečná obsluha EZ"
@@ -1285,11 +1288,12 @@
     "id": 95,
     "block": "B",
     "number": 19,
-    "question": "Pri práci PPN na vzdialenostť musia byť dodržané určité vzdialenosti pracovníka od živých častí pod napátím (PPN - práca Do akej vzdialenosti v cm sa móže pracovník priblížiť k živým častiam pod napátím 10 kV (max. 12 kV) pri PPN na vzdialenostť? (PPN - práca pod napátím) a) 30",
+    "question": "Pri práci PPN na vzdialenosť musia byť dodržané určité vzdialenosti pracovníka od živých častí pod napätím. Do akej vzdialenosti v cm sa môže pracovník priblížiť k živým častiam pod napätím 10 kV (max. 12 kV) pri PPN na vzdialenosť?",
     "options": {
-      "b": "PPN V dotyku b) 32",
-      "c": "PPN na potenciáli c) 34",
-      "d": "PPN s ochranou d) 36 I"
+      "a": "30",
+      "b": "32",
+      "c": "34",
+      "d": "36"
     },
     "correct": "a",
     "chapter": "Bezpečná práca na elektrických zariadeniach a bezpečná obsluha EZ"
@@ -3114,6 +3118,7 @@
     "number": 55,
     "question": "Aký rozsah striedavých napátí podla STN 34 3100 má napátie: nn - nízke napátie?",
     "options": {
+      "a": "Nad 50 V do 1000 V",
       "b": "Nad 1 kV do 52 kV",
       "c": "Nad 50 V do 600 V",
       "d": "Ood © V do 230V"
@@ -3435,7 +3440,9 @@
     "question": "Do akého času musí ochranný prvok odpojiť pri ochrane samočinným odpojením od napájania v sieti TN pri menovitom napátí 230 V?",
     "options": {
       "a": "Do 1 s",
-      "d": "Do 5 s čov h vodi i hrann ové pásma, prierezy oc| Siete, ochrany, napáť PRIEREZ VODIČA -S=mr?"
+      "b": "Do 0,4 s",
+      "c": "Do 0,5 s",
+      "d": "Do 5 s"
     },
     "correct": "b",
     "chapter": "Siete, ochrany, napäťové pásma, prierezy ochranných vodičov"
