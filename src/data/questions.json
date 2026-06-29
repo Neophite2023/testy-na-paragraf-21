@@ -2130,10 +2130,10 @@
     "id": 157,
     "block": "B",
     "number": 81,
-    "question": "Čo musí urobiť pracovník poverený dozorom (pri práci podľa príkazu",
+    "question": "Čo musí urobiť pracovník poverený dozorom (pri práci podľa príkazu B) pred povolením, aby pracovníci mohli opätovne vstúpiť na pracovisko?",
     "options": {
-      "b": "Zistí, či v zaistení pracoviska nenastali zmeny",
       "a": "Spočíta, či sú všetci",
+      "b": "Zistí, či v zaistení pracoviska nenastali zmeny",
       "c": "Zapojí skratovaciu súpravu"
     },
     "correct": "b",
