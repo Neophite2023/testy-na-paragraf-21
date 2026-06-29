@@ -43,3 +43,26 @@
 4. Skontrolovať výsledný diff a pracovný strom.
 5. Vytvoriť samostatný commit s výstižným slovenským názvom.
 6. Po úspešnom overení automaticky odoslať commit na `origin/master`.
+
+## 29. 6. 2026 — Opravy OCR textov otázok
+
+### Hotovo
+- Vyčistené zjavné OCR chyby v `src/data/questions.json` naprieč otázkami a odpoveďami.
+- Opravené opakované zámeny ako `móže` -> `môže`, `napátie` -> `napätie`, `častť` -> `časť`, české znaky `ů/ř` a prilepené útržky strán.
+- Cielene opravené otázky:
+  - B/66: beznapäťový stav a skratovacia súprava.
+  - B/76: dovolenie na začatie práce podľa príkazu B vopred.
+  - B/81: opätovný vstup pracovníkov na pracovisko.
+  - C/12: sieť na obrázku, správna odpoveď `TN-C-S`.
+- Pri dátových zmenách bol spustený produkčný build `npm.cmd run build`.
+- Zmeny boli odoslané na GitHub do vetvy `master`.
+
+### Commity
+- `ee36944` — Fix OCR text in questions
+- `4d7506e` — Fix block B question 81 text
+- `0afd53a` — Fix block B question 66 text
+- `4632d07` — Fix block C question 12 text
+- `4f31adb` — Fix block B question 76 text
+
+### Poznámka
+- V tomto projekte sa majú po dokončení a overení úprav automaticky vytvoriť commit a push na `origin/master`, ak používateľ nepovie inak.
