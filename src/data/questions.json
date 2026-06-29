@@ -1926,12 +1926,10 @@
     "id": 142,
     "block": "B",
     "number": 66,
-    "question": "Pri zaisťovaní pracoviska sa musí bezpečne zistiť beznapäťový stav. Môžu sa pracovníci po odskúšaní elektrickej inštalácie)? beznapäťového stavu približovať k odpojeným častiam a dotýkať sa týchto",
+    "question": "Pri zaisťovaní pracoviska sa musí bezpečne zistiť beznapäťový stav. Môžu sa pracovníci po odskúšaní beznapäťového stavu približovať k odpojeným častiam a dotýkať sa týchto častí pred pripojením skratovacej súpravy?",
     "options": {
-      "a": "Najmenej 1 rok časti (pred pripojením skratovacej súpravy)?",
-      "b": "Najmenej 2 roky",
-      "c": "Najmenej 3 roky a) Nie",
-      "d": "Najmenej 5 rokov b) Áno I"
+      "a": "Nie",
+      "b": "Áno"
     },
     "correct": "a",
     "chapter": "Bezpečná práca na elektrických zariadeniach a bezpečná obsluha EZ"
