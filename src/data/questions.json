@@ -2060,7 +2060,7 @@
     "id": 152,
     "block": "B",
     "number": 76,
-    "question": "Je vydávať dovolenie podľa príkazu B? Dovolené vopred na začatie práce",
+    "question": "Je dovolené vydať dovolenie na začatie práce podľa príkazu B vopred?",
     "options": {
       "a": "Nie",
       "b": "Áno",
