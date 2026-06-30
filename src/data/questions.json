@@ -194,7 +194,7 @@
     "id": 15,
     "block": "A",
     "number": 15,
-    "question": "Do akej veľkosti pretekajúceho telom postihnutého nedôjde k fibrilácii srdca (ani pri dlhodobom pôsobení)? prúdu 1",
+    "question": "Do akej veľkosti prúdu pretekajúceho telom postihnutého nedôjde k fibrilácii srdca (ani pri dlhodobom pôsobení)?",
     "options": {
       "a": "Ak prúd je menší ako 1 A",
       "b": "Ak prúd je menší ako 500 mA",
@@ -2154,7 +2154,7 @@
     "id": 159,
     "block": "B",
     "number": 83,
-    "question": "Ako sa posudzuje vypnutá elektrická inštalácia (pri práci podľa príkazu",
+    "question": "Ako sa posudzuje vypnutá elektrická inštalácia (pri práci podľa príkazu B), keď už bola odstránená skratovacia súprava?",
     "options": {
       "b": "Pokladá sa za elektrickú inštaláciu pod napätím",
       "a": "Pokladá sa za elektrickú inštaláciu bez napätia"
@@ -2380,7 +2380,7 @@
     "id": 176,
     "block": "C",
     "number": 1,
-    "question": "Ktorý vodič označujeme symbolom uvedeným na obrázku? ň(___",
+    "question": "Ktorý vodič označujeme symbolom uvedeným na obrázku?",
     "options": {
       "a": "Neutrálny vodič (N)",
       "b": "Ochranný vodič (PE)",
@@ -2506,7 +2506,7 @@
       "a": "Sieť TN-S",
       "b": "Sieť TN-C",
       "c": "Sieť IT",
-      "d": "Sieť TT Pr ČásTi LZkMNENME."
+      "d": "Sieť TT"
     },
     "correct": "d",
     "chapter": "Siete, ochrany, napäťové pásma, prierezy ochranných vodičov"
