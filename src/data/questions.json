@@ -2530,6 +2530,8 @@
     "block": "C",
     "number": 12,
     "question": "Aká sieť je uvedená na nasledujúcom obrázku?",
+    "image": "/question-images/c12-ac-tn-c-s.png",
+    "imageAlt": "Schéma striedavej siete TN-C-S",
     "options": {
       "a": "Striedavá sieť TT",
       "b": "Striedavá sieť IT",
@@ -2543,7 +2545,9 @@
     "id": 188,
     "block": "C",
     "number": 13,
-    "question": "Aká sieť je uvedená na nasledujúcom obrázku? 1 o VEŽIVÉ",
+    "question": "Aká sieť je uvedená na nasledujúcom obrázku?",
+    "image": "/question-images/c13-dc-tn-c.png",
+    "imageAlt": "Schéma jednosmernej siete TN-C",
     "options": {
       "a": "Striedavá sieť TT",
       "b": "Jednosmerná sieť IT",

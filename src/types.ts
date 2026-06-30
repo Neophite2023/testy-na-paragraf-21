@@ -3,6 +3,8 @@ export interface Question {
   block: string;
   number: number;
   question: string;
+  image?: string;
+  imageAlt?: string;
   options: Record<string, string>;
   correct: string;
   chapter: string;

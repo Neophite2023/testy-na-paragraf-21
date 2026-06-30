@@ -19,6 +19,16 @@ export default function QuestionCard({ question, selected, showResult, onSelect 
 
       <h2 className="question-text">{question.question}</h2>
 
+      {question.image && (
+        <div className="question-image-wrap">
+          <img
+            className="question-image"
+            src={question.image}
+            alt={question.imageAlt ?? ''}
+          />
+        </div>
+      )}
+
       <div className="options">
         {optionLabels.map((key) => {
           if (!(key in question.options)) return null
