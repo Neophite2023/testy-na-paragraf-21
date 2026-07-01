@@ -2627,10 +2627,10 @@
     "number": 18,
     "question": "Ktorý rozsah striedavých napätí U platí pre napäťové pásmo II?",
     "options": {
-      "a": "Krajný vodič proti zemi:",
-      "b": "Medzi krajnými vodičmi:",
-      "c": "Krajný vodič proti zemi",
-      "d": "Medzi krajnými vodičmi:"
+      "a": "Krajný vodič proti zemi: U < 60 V",
+      "b": "Medzi krajnými vodičmi: 50 V < U < 120 V",
+      "c": "Krajný vodič proti zemi: 50 V < U <= 600 V",
+      "d": "Medzi krajnými vodičmi: 50 V < U < 1000 V"
     },
     "correct": "c",
     "chapter": "Siete, ochrany, napäťové pásma, prierezy ochranných vodičov"
