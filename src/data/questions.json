@@ -1302,7 +1302,7 @@
     "id": 96,
     "block": "B",
     "number": 20,
-    "question": "Pri práci PPN na vzdialenosť musia byť dodržané určité vzdialenosťi pracovníka od živých časti pod napätím (PPN - práca pod Do akej vzdialenosťi v cm sa môže pracovník priblížiť k živým častiam pod napätím 22 kV (max 25 kV) pri PPN na vzdialenosť?",
+    "question": "Pri práci PPN na vzdialenosť musia byť dodržané určité vzdialenosti pracovníka od živých častí pod napätím (PPN - práca pod napätím). Do akej vzdialenosti v cm sa môže pracovník priblížiť k živým častiam pod napätím 22 kV (max 25 kV) pri PPN na vzdialenosť?",
     "options": {
       "a": "60",
       "b": "50",
