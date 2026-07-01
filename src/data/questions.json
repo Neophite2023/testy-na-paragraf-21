@@ -2395,6 +2395,8 @@
     "block": "C",
     "number": 2,
     "question": "Ktorý vodič označujeme symbolom uvedeným na obrázku?",
+    "image": "/question-images/c02-pe-symbol.png",
+    "imageAlt": "Symbol ochranného vodiča PE",
     "options": {
       "a": "Neutrálny vodič (N)",
       "b": "Ochranný vodič (PE)",
