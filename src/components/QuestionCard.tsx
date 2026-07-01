@@ -9,6 +9,19 @@ interface QuestionCardProps {
 
 const optionLabels = ['a', 'b', 'c', 'd', 'e', 'f']
 
+function resolveImageSrc(image: string) {
+  if (/^(https?:)?\/\//.test(image) || image.startsWith('data:') || image.startsWith('blob:')) {
+    return image
+  }
+
+  const baseUrl = import.meta.env.BASE_URL
+  if (image.startsWith('/')) {
+    return `${baseUrl.replace(/\/$/, '')}${image}`
+  }
+
+  return `${baseUrl}${image}`
+}
+
 export default function QuestionCard({ question, selected, showResult, onSelect }: QuestionCardProps) {
   return (
     <div className="question-card">
@@ -23,7 +36,7 @@ export default function QuestionCard({ question, selected, showResult, onSelect 
         <div className="question-image-wrap">
           <img
             className="question-image"
-            src={question.image}
+            src={resolveImageSrc(question.image)}
             alt={question.imageAlt ?? ''}
           />
         </div>
