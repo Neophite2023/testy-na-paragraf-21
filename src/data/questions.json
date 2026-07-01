@@ -2596,6 +2596,12 @@
       "c": "Značka 5033",
       "d": "Značka 5001"
     },
+    "optionImages": {
+      "a": "/question-images/c16-symbol-5003.png",
+      "b": "/question-images/c16-symbol-5194.png",
+      "c": "/question-images/c16-symbol-5033.png",
+      "d": "/question-images/c16-symbol-5001.png"
+    },
     "correct": "a",
     "chapter": "Siete, ochrany, napäťové pásma, prierezy ochranných vodičov"
   },

@@ -45,6 +45,7 @@ export default function QuestionCard({ question, selected, showResult, onSelect 
       <div className="options">
         {optionLabels.map((key) => {
           if (!(key in question.options)) return null
+          const optionImage = question.optionImages?.[key]
           const isSelected = selected === key
           const isCorrect = question.correct.includes(key)
 
@@ -61,6 +62,13 @@ export default function QuestionCard({ question, selected, showResult, onSelect 
               disabled={showResult}
             >
               <span className="option-key">{key.toUpperCase()}</span>
+              {optionImage && (
+                <img
+                  className="option-image"
+                  src={resolveImageSrc(optionImage)}
+                  alt={question.options[key]}
+                />
+              )}
               <span className="option-text">{question.options[key]}</span>
             </button>
           )

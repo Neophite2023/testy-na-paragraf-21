@@ -6,6 +6,7 @@ export interface Question {
   image?: string;
   imageAlt?: string;
   options: Record<string, string>;
+  optionImages?: Record<string, string>;
   correct: string;
   chapter: string;
 }
