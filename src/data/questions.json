@@ -2381,6 +2381,8 @@
     "block": "C",
     "number": 1,
     "question": "Ktorý vodič označujeme symbolom uvedeným na obrázku?",
+    "image": "/question-images/c01-neutral-symbol.png",
+    "imageAlt": "Symbol neutrálneho vodiča N",
     "options": {
       "a": "Neutrálny vodič (N)",
       "b": "Ochranný vodič (PE)",
