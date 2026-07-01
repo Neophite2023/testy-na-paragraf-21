@@ -3554,10 +3554,10 @@
     "number": 87,
     "question": "Aký je minimálny prierez doplnkového pospájania ak vodič doplnkového pospájania nie je chránený (je nechránený) pred mechanickým poškodením?",
     "options": {
-      "a": "Minimálne",
-      "b": "Minimálne",
-      "c": "Minimálne",
-      "d": "Minimálne 1 mm2 1,5 mm2 2,5 mm2 4 mm2"
+      "a": "Minimálne 1 mm2",
+      "b": "Minimálne 1,5 mm2",
+      "c": "Minimálne 2,5 mm2",
+      "d": "Minimálne 4 mm2"
     },
     "correct": "d",
     "chapter": "Siete, ochrany, napäťové pásma, prierezy ochranných vodičov"
