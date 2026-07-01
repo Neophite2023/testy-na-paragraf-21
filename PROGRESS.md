@@ -115,6 +115,12 @@
   - `public/question-images/c16-symbol-5194.png`,
   - `public/question-images/c16-symbol-5033.png`,
   - `public/question-images/c16-symbol-5001.png`.
+- Doplnené chýbajúce obrázky zo zdrojového PDF:
+  - `public/question-images/c02-pe-symbol.png` pre otázku C/2,
+  - `public/question-images/c01-neutral-symbol.png` pre otázku C/1.
+- Opravená otázka C/18, kde mali odpovede zlepené alebo chýbajúce rozsahy napätí a dve možnosti vyzerali rovnako:
+  - doplnené rozsahy `U < 60 V`, `50 V < U < 120 V`, `50 V < U <= 600 V`, `50 V < U < 1000 V`,
+  - správna odpoveď zostala `C`.
 - Pri zmenách bol spustený produkčný build `npm.cmd run build`.
 - Zmeny boli odoslané na GitHub do vetvy `master`.
 
@@ -124,3 +130,6 @@
 - `d76e1e6` — Fix block A question 31 text
 - `fccecdd` — Fix block B question 20 text
 - `1a524d4` — Add option images for block C question 16
+- `4fe4b1d` — Add image for block C question 2
+- `add8102` — Fix block C question 18 options
+- `af0af89` — Add image for block C question 1
