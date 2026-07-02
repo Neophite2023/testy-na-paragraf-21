@@ -2413,6 +2413,8 @@
     "block": "C",
     "number": 3,
     "question": "Ktorý vodič označujeme symbolom uvedeným na obrázku?",
+    "image": "/question-images/c03-pen-symbol.png",
+    "imageAlt": "Symbol kombinovaného vodiča PE a N (PEN)",
     "options": {
       "a": "Neutrálny vodič (N)",
       "b": "Ochranný vodič (PE)",
